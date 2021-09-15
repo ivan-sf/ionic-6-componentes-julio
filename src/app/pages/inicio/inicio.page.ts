@@ -62,6 +62,11 @@ export class InicioPage implements OnInit {
       icon:'infinite-outline',
       name:'Infinite Scroll',
       redirectTo:'/infinite-scroll'
+    },
+    {
+      icon:'cog-outline',
+      name:'Tabs',
+      redirectTo:'/tab'
     }
   ]
   constructor() { }

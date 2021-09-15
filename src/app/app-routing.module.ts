@@ -49,6 +49,10 @@ const routes: Routes = [
   {
     path: 'infinite-scroll',
     loadChildren: () => import('./pages/infinite-scroll/infinite-scroll.module').then( m => m.InfiniteScrollPageModule)
+  },
+  {
+    path: 'tab',
+    loadChildren: () => import('./pages/tab/tab.module').then( m => m.TabPageModule)
   }
 
 ];
